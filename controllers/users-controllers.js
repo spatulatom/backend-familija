@@ -30,7 +30,7 @@ const getUsers = async (req, res, next) => {
 
 const signup = (req, res, next) => {
 
-// logic for aws:
+// for aws:
 const s3 = new AWS.S3({
   secretAccessKey: process.env.AWS_SECRET_KEY,
   accessKeyId: process.env.AWS_KEY_ID,
